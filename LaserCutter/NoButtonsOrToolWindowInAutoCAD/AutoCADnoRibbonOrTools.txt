@@ -1,0 +1,22 @@
+Problem:  no buttons/ribbon in AutoCAD
+
+Solution:
+
+
+Reload the main CUI file:  (we have one copy at "C:\LaserCutter\NoButtonsOrToolWindowInAutoCAD\acad.cuix")
+
+Enter the CUILOAD command.
+Click the Browse button.
+Select the ACAD.CUIX file and then click Load. 
+If this is already loaded, unload it first and then load it again.
+Note: The CUIX file is different, depending on the variation of AutoCAD. 
+Example:
+AutoCAD LT = ACADLT.CUIX
+AutoCAD Architecture = ACA.CUIX
+AutoCAD MEP = MEP.CUIX
+AutoCAD Mechanical = ACADM.CUIX
+AutoCAD Electrical = ACADE.CUIX
+AutoCAD Civil 3D = C3D.CUIX
+Reset AutoCAD to defaults. (See How to reset AutoCAD to defaults.)
+Note: When the ribbon has been restored, you can use the WSSETTINGS command to open the Workspace Settings dialog box, where you can select Automatically Save Workspace Changes to save your settings.?
+
